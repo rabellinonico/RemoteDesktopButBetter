@@ -103,7 +103,7 @@ namespace RemoteDesktopButBetter
         }
         private void ButtonRemoveGroup_Click(object sender, EventArgs e)
         {
-            DialogResult dialogResult = MessageBox.Show("Eliminare la Società/Azienda?", "Eliminazione Società/Azienda", MessageBoxButtons.YesNo);
+            DialogResult dialogResult = MessageBox.Show("Remove the group?", "Remove group", MessageBoxButtons.YesNo);
 
             if (dialogResult == DialogResult.Yes)
             {
@@ -187,7 +187,7 @@ namespace RemoteDesktopButBetter
         }
         private void ButtonRemoveServer_Click(object sender, EventArgs e)
         {
-            DialogResult dialogResult = MessageBox.Show("Eliminare il Server?", "Eliminazione Server", MessageBoxButtons.YesNo);
+            DialogResult dialogResult = MessageBox.Show("Remove the server?", "Remove Server", MessageBoxButtons.YesNo);
 
             if (dialogResult == DialogResult.Yes)
             {

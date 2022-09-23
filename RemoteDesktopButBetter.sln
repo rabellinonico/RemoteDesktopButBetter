@@ -5,6 +5,8 @@ VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoteDesktopButBetter", "RemoteDesktopButBetter\RemoteDesktopButBetter.csproj", "{6EFC982F-D666-4D29-814D-20C992ADCEE1}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "RDBB", "RDBB\RDBB.vdproj", "{06E0BB18-EC65-4082-9726-47B532CA5DE1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{6EFC982F-D666-4D29-814D-20C992ADCEE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EFC982F-D666-4D29-814D-20C992ADCEE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EFC982F-D666-4D29-814D-20C992ADCEE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06E0BB18-EC65-4082-9726-47B532CA5DE1}.Debug|Any CPU.ActiveCfg = Debug
+		{06E0BB18-EC65-4082-9726-47B532CA5DE1}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

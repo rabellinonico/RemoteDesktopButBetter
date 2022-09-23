@@ -100,7 +100,10 @@
             this.Controls.Add(this.ListBoxOrderable);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.SaveButton);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "ReorderListComponent";
+            this.ShowIcon = false;
             this.Text = "Reorder list";
             this.ResumeLayout(false);
             this.PerformLayout();

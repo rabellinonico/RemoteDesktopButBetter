@@ -5,9 +5,11 @@ namespace RemoteDesktopButBetter
     public partial class ReorderListComponent : Form
     {
         public object[] Items = Array.Empty<object>();
-        public ReorderListComponent(object[] Items, string DisplayMember)
+        public ReorderListComponent(object[] Items, string DisplayMember, string LabelText)
         {
             InitializeComponent();
+
+            label1.Text = LabelText;
 
             foreach (object item in Items)
             {

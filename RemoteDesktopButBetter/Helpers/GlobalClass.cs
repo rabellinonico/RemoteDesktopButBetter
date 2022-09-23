@@ -7,7 +7,7 @@ namespace RemoteDesktopButBetter.Helpers
     {
 
         private static List<ServersGroup> _aziende = new();
-        private static readonly string _appdatafilepath = Path.Combine(Application.UserAppDataPath, "RDBB.txt");
+        private static readonly string _appdatafilepath = Path.Combine(Application.UserAppDataPath, "servers.txt");
 
         public static List<ServersGroup> Aziende
         {

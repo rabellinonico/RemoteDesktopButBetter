@@ -273,7 +273,7 @@ namespace RemoteDesktopButBetter
 
         private void ButtonReorderGroups_Click(object sender, EventArgs e)
         {
-            ReorderListComponent reorderListForm = new(ComboBoxGroups.Items.Cast<ServersGroup>().ToArray(), "Name");
+            ReorderListComponent reorderListForm = new(ComboBoxGroups.Items.Cast<ServersGroup>().ToArray(), "Name", "Groups");
             DialogResult result = reorderListForm.ShowDialog();
 
             if (result == DialogResult.OK)
@@ -294,7 +294,7 @@ namespace RemoteDesktopButBetter
         private void ButtonReorderServers_Click(object sender, EventArgs e)
         {
             ServersGroup g = (ServersGroup)ComboBoxGroups.SelectedItem;
-            ReorderListComponent reorderListForm = new(ComboBoxServers.Items.Cast<Server>().ToArray(), "Fullname");
+            ReorderListComponent reorderListForm = new(ComboBoxServers.Items.Cast<Server>().ToArray(), "Fullname", "Servers");
             DialogResult result = reorderListForm.ShowDialog();
 
             if (result == DialogResult.OK)

@@ -39,36 +39,6 @@ namespace RemoteDesktopButBetter
         }
 
         // GROUPS
-        private void ComboBoxGroup_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (ComboBoxGroups.SelectedIndex != -1)
-            {
-                ButtonEditGroup.Enabled = true;
-                ButtonReorderGroups.Enabled = true;
-                ButtonRemoveGroup.Enabled = true;
-
-                ButtonAddServer.Enabled = true;
-
-                AggiornaComboBoxServer((ServersGroup)ComboBoxGroups.SelectedItem);
-                if (ComboBoxServers.Items.Count == 0)
-                {
-                    ComboBoxServers.Enabled = false;
-
-                    ButtonEditServer.Enabled = false;
-                    ButtonReorderServers.Enabled = false;
-                    ButtonRemoveServer.Enabled = false;
-                }
-                else
-                {
-                    ComboBoxServers.SelectedIndex = 0;
-                    ComboBoxServers.Enabled = true;
-
-                    ButtonEditServer.Enabled = true;
-                    ButtonReorderServers.Enabled = true;
-                    ButtonRemoveServer.Enabled = true;
-                }
-            }
-        }
         private void AggiornaComboBoxGroup()
         {
             if (GlobalClass.Aziende.Count == 0)
